@@ -11,7 +11,7 @@ license-file:       LICENSE
 copyright:          © 2021 Hackworth Ltd
 author:             Drew Hess <dhess-src@hackworthltd.com>
 maintainer:         dhess-src@hackworthltd.com
-tested-with:        GHC ==8.6.5 || ==8.8.3
+tested-with:        GHC ==8.6.5 || ==8.8.4 || ==8.10.3
 extra-source-files: .hlint.yaml
 
 source-repository head
