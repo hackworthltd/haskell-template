@@ -8,10 +8,10 @@ homepage:           https://github.com/hackworthltd/haskell-template
 bug-reports:        https://github.com/hackworthltd/haskell-template
 license:            BSD-3-Clause
 license-file:       LICENSE
-copyright:          © 2020 Hackworth Ltd
+copyright:          © 2021 Hackworth Ltd
 author:             Drew Hess <dhess-src@hackworthltd.com>
 maintainer:         dhess-src@hackworthltd.com
-tested-with:        GHC ==8.6.5 || ==8.8.3
+tested-with:        GHC ==8.6.5 || ==8.8.4 || ==8.10.3
 extra-source-files: .hlint.yaml
 
 source-repository head
