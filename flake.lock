@@ -82,11 +82,11 @@
     },
     "emacs-overlay": {
       "locked": {
-        "lastModified": 1611519204,
-        "narHash": "sha256-vDfzQhLB3d1yT7Dp/5NWDABMTQhbPLhkfF70ACj7rb8=",
+        "lastModified": 1611605606,
+        "narHash": "sha256-ebXKZgFFCwmfqqGbUOPK5klokxjzzOzCJuHsSGG0UEQ=",
         "owner": "nix-community",
         "repo": "emacs-overlay",
-        "rev": "98155da66df7feb9a0bb8f8030c51b648596232f",
+        "rev": "f9d706f6c538c6791e8b5b0c0c4fc1878701475c",
         "type": "github"
       },
       "original": {
@@ -238,11 +238,11 @@
         "traefik-forward-auth": "traefik-forward-auth"
       },
       "locked": {
-        "lastModified": 1611580571,
-        "narHash": "sha256-WmdPtcQM/gnFapHxlXBIpSHH1ebuQXrHR1JkA8tv6xI=",
+        "lastModified": 1611651651,
+        "narHash": "sha256-OIL4oUYQBG85VtaynL/CAfrEffC31WIeK1m4gPmQuGQ=",
         "owner": "hackworthltd",
         "repo": "hacknix",
-        "rev": "3767071dd742ae21847bf578bba1f1f27a5d5de8",
+        "rev": "ebd8688e9ef1c576e721846604bc00da9264ca7a",
         "type": "github"
       },
       "original": {
@@ -260,11 +260,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1611650597,
-        "narHash": "sha256-9btg7RxL/KwCwhJy+irzbSFiFrbNUD7uEOvgOC/2Eh8=",
+        "lastModified": 1611703371,
+        "narHash": "sha256-j7rg/WX2eGSNoFDq/zlIuwy1omfIMRPspVMcfAoNCdg=",
         "owner": "hackworthltd",
         "repo": "hacknix-lib",
-        "rev": "9f3ad4228fc5ab683fb2c88378002ae140a732a4",
+        "rev": "4d02b0a23f1d39e89666bd89e942934285f04ab1",
         "type": "github"
       },
       "original": {
@@ -282,11 +282,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1611489648,
-        "narHash": "sha256-s+tBaS7UKasA8JXmuT+YqJ9QUkIFqjB1Kgy9OyERBCo=",
+        "lastModified": 1611610930,
+        "narHash": "sha256-mMQCvMAbe2RvQMNxtqBTTBQuMn/gvb5m64lcH4dadXs=",
         "owner": "hackworthltd",
         "repo": "hacknix-lib",
-        "rev": "82453977b00ccdbe921620f0884a899f375bd7ef",
+        "rev": "7e53764bfa0c4f5f3211a387d8ab12aef1683299",
         "type": "github"
       },
       "original": {
@@ -308,15 +308,14 @@
           "hacknix",
           "nixpkgs"
         ],
-        "purescript": "purescript",
-        "spago": "spago"
+        "purescript": "purescript"
       },
       "locked": {
-        "lastModified": 1611650665,
-        "narHash": "sha256-Crkdrx5KEoHMjQNw5dp3O1HPsOJdT0xi0QSeRt2rfk8=",
+        "lastModified": 1611757584,
+        "narHash": "sha256-PQgji+JUBg7Rd8KEI8ImNuHnBqogL4lXptVydTPUE94=",
         "owner": "hackworthltd",
         "repo": "haskell-hacknix",
-        "rev": "a22db143497dd9f0882aa8d9e1a41e0500ea77f6",
+        "rev": "f85bd5a8250bb12eebb70ebc30f7579ebf9947da",
         "type": "github"
       },
       "original": {
@@ -354,11 +353,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1611324502,
-        "narHash": "sha256-Fo2iTWVvXoq4crO91Wu5qmzBZA5v1seVv2a6ge3+1jY=",
+        "lastModified": 1611584521,
+        "narHash": "sha256-6eN5ZfSFGoYbU8a5O+f30aNbh6ttwbfUDcxg+vfbGJI=",
         "owner": "NixOS",
         "repo": "hydra",
-        "rev": "53c2fc2216c7ee888af8fbe18628197df506941a",
+        "rev": "d0b3f2dac446f35e4894a305cb06f59f73a5c1b2",
         "type": "github"
       },
       "original": {
@@ -532,11 +531,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1611429538,
-        "narHash": "sha256-5xlIMueskuOBYckggcZj6TyBxrQ5OhwaZNgCH1Zq6zU=",
+        "lastModified": 1611573985,
+        "narHash": "sha256-/99tW/FVulTati8qgvS5ul4/aQDCWHkEFAR7adXZ6BY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "fcef64cc39816a38a0c617a7e49076fc1ab080cf",
+        "rev": "cc75b0e3b55646c141efa10fcf8c81f55daf8a9a",
         "type": "github"
       },
       "original": {
@@ -604,22 +603,6 @@
           "nixpkgs"
         ],
         "pre-commit-hooks-nix": "pre-commit-hooks-nix"
-      }
-    },
-    "spago": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1608117863,
-        "narHash": "sha256-58aNphezSYfV11FRQ7nGmtHuBx/Nsz6M3qCZA0J8agY=",
-        "owner": "hackworthltd",
-        "repo": "spago",
-        "rev": "c3b9ea1f5da3e87c42811dd03832cebc3365781a",
-        "type": "github"
-      },
-      "original": {
-        "owner": "hackworthltd",
-        "repo": "spago",
-        "type": "github"
       }
     },
     "spago2nix": {
