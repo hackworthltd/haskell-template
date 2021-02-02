@@ -260,11 +260,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1612195036,
-        "narHash": "sha256-iMbJ45PJLcK47IvBqbzOnSEmNiHwdD1fulkZc5LZM+Y=",
+        "lastModified": 1612223844,
+        "narHash": "sha256-UzZvnbOp4OEMMbJMi8eDnSnnhDLEKs4P2WwRE7Rkbs4=",
         "owner": "hackworthltd",
         "repo": "hacknix-lib",
-        "rev": "de837299dd61978084c2c7c337f944fcde3a0564",
+        "rev": "6ab9ab0dd8ca1216c60c048c4b8a5d975c29668f",
         "type": "github"
       },
       "original": {
@@ -311,11 +311,11 @@
         "purescript": "purescript"
       },
       "locked": {
-        "lastModified": 1612197749,
-        "narHash": "sha256-87Gdqcds7IRhw50I3vHxEMYyM5pYBSFMamkl+/aYrB8=",
+        "lastModified": 1612226723,
+        "narHash": "sha256-aG2B1cniUlF34en+zuey7aVqmgaMj6hglUBEpNN2b6I=",
         "owner": "hackworthltd",
         "repo": "haskell-hacknix",
-        "rev": "88dfdf22c6e033d71df34c156fc8e34b0fcb2d64",
+        "rev": "808a21b283fed33bd742fac2704f659c2645ca22",
         "type": "github"
       },
       "original": {
