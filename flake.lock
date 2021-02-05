@@ -260,11 +260,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1612223844,
-        "narHash": "sha256-UzZvnbOp4OEMMbJMi8eDnSnnhDLEKs4P2WwRE7Rkbs4=",
+        "lastModified": 1612473522,
+        "narHash": "sha256-jO98XGA9hVE0SijGcydakbMdT0Jhjiqp+Ex6qf1/vss=",
         "owner": "hackworthltd",
         "repo": "hacknix-lib",
-        "rev": "6ab9ab0dd8ca1216c60c048c4b8a5d975c29668f",
+        "rev": "555e39310c68f3674fac70f814cd5e8c5510cff8",
         "type": "github"
       },
       "original": {
