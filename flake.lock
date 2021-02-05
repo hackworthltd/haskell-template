@@ -260,11 +260,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1612473522,
-        "narHash": "sha256-jO98XGA9hVE0SijGcydakbMdT0Jhjiqp+Ex6qf1/vss=",
+        "lastModified": 1612483491,
+        "narHash": "sha256-BhO1Rm/GmurloRDLNFqjXUVx0yNHMMjo7YFoYJmNgyQ=",
         "owner": "hackworthltd",
         "repo": "hacknix-lib",
-        "rev": "555e39310c68f3674fac70f814cd5e8c5510cff8",
+        "rev": "37dffa86404192c0afce18a3c8b20c70d16b9e4b",
         "type": "github"
       },
       "original": {
@@ -311,11 +311,11 @@
         "purescript": "purescript"
       },
       "locked": {
-        "lastModified": 1612226723,
-        "narHash": "sha256-aG2B1cniUlF34en+zuey7aVqmgaMj6hglUBEpNN2b6I=",
+        "lastModified": 1612520183,
+        "narHash": "sha256-xEg3fKQJzUUM71aPfQ8ZtkMWbHI8H38C5BBOfrAJePo=",
         "owner": "hackworthltd",
         "repo": "haskell-hacknix",
-        "rev": "808a21b283fed33bd742fac2704f659c2645ca22",
+        "rev": "ffdd9751491fd6ddbf8051bf5cd72164774fb326",
         "type": "github"
       },
       "original": {
@@ -331,16 +331,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1610363352,
-        "narHash": "sha256-+si4uq4LCjah3986qsvU4Eul+EQCI4Dgsu++7cHrZgY=",
+        "lastModified": 1612473249,
+        "narHash": "sha256-o9K6KYHRJA83piNZyVdZPFOZoJyeL6+fK8ouGJF1xvU=",
         "owner": "hackworthltd",
         "repo": "haskell.nix",
-        "rev": "e6d944b042f3726f5639b615bc8b34f0b480c39d",
+        "rev": "ac7a9a6f10267ed92467d65e16cc478e93c9b549",
         "type": "github"
       },
       "original": {
         "owner": "hackworthltd",
-        "ref": "flakes-fixes-v2",
+        "ref": "flakes-fixes-v3",
         "repo": "haskell.nix",
         "type": "github"
       }
@@ -443,11 +443,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1611862547,
-        "narHash": "sha256-pBWrGexAJjuQjveuuDEsbeLZoQabbA7gaQs9h+OuZwo=",
+        "lastModified": 1612476302,
+        "narHash": "sha256-gPQy5UoFU3pdnfJjxbhC56AnaMRx0DWMzHM51EJImN0=",
         "owner": "LnL7",
         "repo": "nix-darwin",
-        "rev": "9e3e4033bcbb88dab3650889b73a242c58adc00e",
+        "rev": "dca3806552420c811e539ede2af3aa7aec665ba1",
         "type": "github"
       },
       "original": {
