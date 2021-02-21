@@ -1,6 +1,6 @@
 -- Bump this to get newer package versions. In general, this should
 -- stay in sync with the latest package versions provided by upstream
 -- haskell.nix.
-index-state: 2021-01-06T00:00:00Z
+index-state: 2021-02-21T00:00:00Z
 
 packages: haskell-template/*.cabal
