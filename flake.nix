@@ -196,5 +196,7 @@
         # It's handy to have Hydra build the shells, so that they're cached.
         shell = devShell;
       };
+
+      ciJobs = hacknix-lib.lib.flakes.recurseIntoHydraJobs self.hydraJobs;
     };
 }
