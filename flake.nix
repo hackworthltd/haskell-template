@@ -63,8 +63,8 @@
           # Add a derivation here for each version of GHC you support
           # (plus variants with profiling enabled, if desired).
 
-          ghc8103 = pkgs.callPackage ./haskell-template {
-            compiler-nix-name = "ghc8103";
+          ghc8104 = pkgs.callPackage ./haskell-template {
+            compiler-nix-name = "ghc8104";
           };
         }
       );
@@ -114,7 +114,7 @@
           let
             haskellPackages = haskellPackagesFor.${system};
           in
-          haskellPackages."ghc8103/shell"
+          haskellPackages."ghc8104/shell"
         );
 
     in
@@ -124,7 +124,7 @@
         (final: prev:
           let
             haskellPackages = final.callPackage ./haskell-template {
-              compiler-nix-name = "ghc8103";
+              compiler-nix-name = "ghc8104";
             };
           in
           {
@@ -171,7 +171,7 @@
         (system: {
           # Add one attribute here for each GHC you want to use.
 
-          ghc8103 = self.hydraJobs.haskell-template.${system}."ghc8103/checks/haskell-template/haskell-template-test";
+          ghc8104 = self.hydraJobs.haskell-template.${system}."ghc8104/checks/haskell-template/haskell-template-test";
         });
 
       hydraJobs = {
