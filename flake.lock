@@ -208,11 +208,11 @@
         "traefik-forward-auth": "traefik-forward-auth"
       },
       "locked": {
-        "lastModified": 1615157880,
-        "narHash": "sha256-LIB3osqv2YxE2uvZ94mUfHTUXNqrY0vPdugs/LvSZX4=",
+        "lastModified": 1615193652,
+        "narHash": "sha256-SpM0uMz/IBC0Zy+lMWB76COrtuTnWdhyXHtQ47Avdo8=",
         "owner": "hackworthltd",
         "repo": "hacknix",
-        "rev": "4a6ea7ca9040ab137a8aa1804c7194a0102e8a5a",
+        "rev": "65ce782b1e69462224305646e11be6770b98f37c",
         "type": "github"
       },
       "original": {
@@ -279,11 +279,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1615193723,
-        "narHash": "sha256-AOZ1d/tk6hkuJjwu608a6mtHKWl+9N2FQVAvnrIZ/nI=",
+        "lastModified": 1615313103,
+        "narHash": "sha256-+1c5CxfELCMQjrZacSJJ8mX6WvUdx846YfhZ3e4U2IQ=",
         "owner": "hackworthltd",
         "repo": "haskell-hacknix",
-        "rev": "9264650a82819f8bb083ea790b358caa22daddba",
+        "rev": "bae7d8c4c38ab86e5369a2b3eb60452c83cafae0",
         "type": "github"
       },
       "original": {
@@ -300,11 +300,11 @@
         "nixpkgs-unstable": "nixpkgs-unstable"
       },
       "locked": {
-        "lastModified": 1615079599,
-        "narHash": "sha256-Dvg8/PQlZbRb994NpH06+5k7LY7UosulOcfZJef5/ws=",
+        "lastModified": 1615244424,
+        "narHash": "sha256-uuH43bwMwjTUMHYuF9jIJwEI3guymzCFaN/J1nEZ3KM=",
         "owner": "input-output-hk",
         "repo": "haskell.nix",
-        "rev": "454a31355f86fad3dfcb9e8ff26b85de78c6bdb9",
+        "rev": "ec23c34c8164ac5f90b383bd00319482cd698e4e",
         "type": "github"
       },
       "original": {
