@@ -3,11 +3,11 @@
     "badhosts": {
       "flake": false,
       "locked": {
-        "lastModified": 1615071102,
-        "narHash": "sha256-4nhohADhhUGfVvsi5nSinBtRo64WuC+AH5NGeeAt9eU=",
+        "lastModified": 1615428790,
+        "narHash": "sha256-frUXlZ+18LsqpHOfHNHhSR7PGg0UIhxaYWU38AQ/8qA=",
         "owner": "StevenBlack",
         "repo": "hosts",
-        "rev": "f790da9067872b1fe9aeb722a90fb37bc457ba27",
+        "rev": "76ea58a70577bb27aafdc589abe0a8f650e12d6e",
         "type": "github"
       },
       "original": {
@@ -51,11 +51,11 @@
     },
     "emacs-overlay": {
       "locked": {
-        "lastModified": 1615241539,
-        "narHash": "sha256-YYiqLthvbO6XZY3Zglzc7IIjPov2Z78MgXbXjjTh4uU=",
+        "lastModified": 1615580649,
+        "narHash": "sha256-O6BT5OigPieeClC6gjermXif4f/9NYzVUdcEvHpgqbE=",
         "owner": "nix-community",
         "repo": "emacs-overlay",
-        "rev": "a3d7fd2174e8628520eaf637ed1f2daad6468835",
+        "rev": "60666d267b7e2c9feda76532a4328ccc4b469a86",
         "type": "github"
       },
       "original": {
@@ -208,11 +208,11 @@
         "traefik-forward-auth": "traefik-forward-auth"
       },
       "locked": {
-        "lastModified": 1615313080,
-        "narHash": "sha256-6i8ccIohL//dEhyb1XWhVLe4gqCjgrtlLx7XKGYuV4k=",
+        "lastModified": 1615638001,
+        "narHash": "sha256-xtDpVXq/z+BR0E1QSPCo2FdenP9mgzI7beAedKp2JBA=",
         "owner": "hackworthltd",
         "repo": "hacknix",
-        "rev": "8647b2d5f64bc0bed1184521e86289850681f6cc",
+        "rev": "47f205cb0b80b0ae75d3f6de9416d017f89d9db1",
         "type": "github"
       },
       "original": {
@@ -252,11 +252,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1615193623,
-        "narHash": "sha256-SDuKKWNbsneEJmb0QQ1JCYI2ESOVZ3HvUuStRrSTpT4=",
+        "lastModified": 1615543326,
+        "narHash": "sha256-YMHVvT0UkSvbJu5TEWLxBg5hYK5dj9502Rj/yBV42go=",
         "owner": "hackworthltd",
         "repo": "hacknix-lib",
-        "rev": "9d32d823e238f521b266c53d43244946e1d00fb6",
+        "rev": "a64a6cada85e183bb03fbe64d79f5fa98f77c3bc",
         "type": "github"
       },
       "original": {
@@ -279,11 +279,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1615638028,
-        "narHash": "sha256-GvL2zXD/+qcJI1W/yBiaknXJVtJpfMZXBjTVuZt+oVk=",
+        "lastModified": 1615732286,
+        "narHash": "sha256-lO8d36H00e+M+ofJ4VbSbQw6BVBz2tbkNtrIO2mRJDs=",
         "owner": "hackworthltd",
         "repo": "haskell-hacknix",
-        "rev": "7b4a811b538e348707116ee6dc4a8c96c0a3e1b9",
+        "rev": "ca0b43f6446629c7932f3798bb2c618d4619aba4",
         "type": "github"
       },
       "original": {
@@ -300,11 +300,11 @@
         "nixpkgs-unstable": "nixpkgs-unstable"
       },
       "locked": {
-        "lastModified": 1615511764,
-        "narHash": "sha256-XUMTaLpSeCa+CkPRmr99sb5RhZ6q/u/r1DFvP9WkAxI=",
+        "lastModified": 1615597980,
+        "narHash": "sha256-ALpzgIkm4AwTBlSdwQ6y41KZqavQ5DFoB+7fYE2Nrao=",
         "owner": "input-output-hk",
         "repo": "haskell.nix",
-        "rev": "d890a8f652acdef0d38ff9d1e7baaed3083bc520",
+        "rev": "b4132f425ed4b3a2b33bd029e7829d3b682ef59b",
         "type": "github"
       },
       "original": {
@@ -376,11 +376,11 @@
     "nix-direnv": {
       "flake": false,
       "locked": {
-        "lastModified": 1614449294,
-        "narHash": "sha256-378tSDqfhjY98WuB20XBX3AJSTmbx2lNjgBRtu7ZMfA=",
+        "lastModified": 1615534279,
+        "narHash": "sha256-+YnuIva048ohnorHynhA1cN6U3pcDSEH4p3MNMzXxOI=",
         "owner": "nix-community",
         "repo": "nix-direnv",
-        "rev": "aca3a321457ef6109b7afbca4faf32d6e35e239e",
+        "rev": "eb75bbe7f376b4df97511847d8d014a8529d76b5",
         "type": "github"
       },
       "original": {
