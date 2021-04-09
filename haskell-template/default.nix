@@ -6,8 +6,10 @@
 let
   haskellPackages = haskell-nix.cabalProject {
     name = "haskell-template";
-    src = ../.;
-    subdir = "haskell-template";
+    src = haskell-nix.haskellLib.cleanGit {
+      src = ../.;
+      subDir = "haskell-template";
+    };
     inherit compiler-nix-name;
   };
 
