@@ -10,7 +10,7 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
-    pre-commit-hooks-nix.url = github:cachix/pre-commit-hooks.nix;
+    pre-commit-hooks-nix.url = github:hackworthltd/pre-commit-hooks.nix/update-nixpkgs;
     pre-commit-hooks-nix.flake = false;
   };
 
