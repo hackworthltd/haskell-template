@@ -10,8 +10,7 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
-    pre-commit-hooks-nix.url = github:hackworthltd/pre-commit-hooks.nix/update-nixpkgs;
-    pre-commit-hooks-nix.flake = false;
+    pre-commit-hooks-nix.url = github:cachix/pre-commit-hooks.nix/flakes;
   };
 
   outputs =
@@ -69,22 +68,12 @@
         }
       );
 
-      # This is used by source-code-checks below.
-      preCommitHooksFor = forAllSupportedSystems (system:
-        # NB: this is a hack until upstream has Flakes support.
-        (import "${pre-commit-hooks-nix}/nix" {
-          inherit system nixpkgs;
-        }).packages
-      );
-
-
       ## Some formatting and linting checks.
       source-code-checks = forAllSupportedSystems (system:
         let
           pkgs = pkgsFor.${system};
-          preCommitHooks = preCommitHooksFor.${system};
         in
-        preCommitHooks.run {
+        pre-commit-hooks-nix.lib.${system}.run {
           src = ./.;
           hooks = {
             hlint.enable = true;
@@ -98,7 +87,7 @@
           # but if you do, you'll get the same versions as the ones
           # provided by `devShell`.
           tools = {
-            inherit (pkgs.haskell-hacknix.haskell-tools) hlint ormolu cabal-fmt;
+            inherit (pkgs.haskell-hacknix.haskell-tools) hlint ormolu;
             inherit (pkgs) nixpkgs-fmt;
           };
         }
