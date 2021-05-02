@@ -10,8 +10,7 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
-    pre-commit-hooks-nix.url = github:hackworthltd/pre-commit-hooks.nix/update-nixpkgs;
-    pre-commit-hooks-nix.flake = false;
+    pre-commit-hooks-nix.url = github:cachix/pre-commit-hooks.nix;
   };
 
   outputs =
@@ -69,22 +68,12 @@
         }
       );
 
-      # This is used by source-code-checks below.
-      preCommitHooksFor = forAllSupportedSystems (system:
-        # NB: this is a hack until upstream has Flakes support.
-        (import "${pre-commit-hooks-nix}/nix" {
-          inherit system nixpkgs;
-        }).packages
-      );
-
-
       ## Some formatting and linting checks.
-      source-code-checks = forAllSupportedSystems (system:
+      pre-commit-hooks = forAllSupportedSystems (system:
         let
           pkgs = pkgsFor.${system};
-          preCommitHooks = preCommitHooksFor.${system};
         in
-        preCommitHooks.run {
+        pre-commit-hooks-nix.lib.${system}.run {
           src = ./.;
           hooks = {
             hlint.enable = true;
@@ -159,23 +148,21 @@
       # Evaluating this Flake output will build the local Haskell
       # package and then run its tests (called "checks" in haskell.nix
       # projects).
-      #
-      # Note that we can't evaluate `source-code-checks` here because
-      # it's not compatible with `nix flake`. See:
-      # 
-      # https://github.com/cachix/pre-commit-hooks.nix/pull/67
-      #
-      # (`source-code-checks` does work fine in `hydraJobs` because
-      # Hydra doesn't use `nix flake` to evaluate it.)
       checks = forAllSupportedSystems
-        (system: {
-          # Add one attribute here for each GHC you want to use.
+        (system:
+          let
+            source-code-checks = pre-commit-hooks.${system};
+          in
+          {
+            # Add one attribute here for each GHC you want to use.
 
-          ghc8104 = self.hydraJobs.haskell-template.${system}."ghc8104/checks/haskell-template/haskell-template-test";
-        });
+            ghc8104 = self.hydraJobs.haskell-template.${system}."ghc8104/checks/haskell-template/haskell-template-test";
+            inherit source-code-checks;
+          });
 
       hydraJobs = {
         build = self.packages;
+        inherit (self) checks;
 
         # When Hydra evaluates this attribute, it will build all the
         # derivations exported by the local Haskell package (shell,
@@ -189,10 +176,6 @@
             in
             flake-utils.lib.flattenTree haskellPackages
           );
-
-        # This only needs to be built for one platform.
-        source-code-checks = source-code-checks.x86_64-linux;
-
         # It's handy to have Hydra build the shells, so that they're cached.
         shell = devShell;
       };
