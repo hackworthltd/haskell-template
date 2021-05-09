@@ -3,11 +3,11 @@
     "badhosts": {
       "flake": false,
       "locked": {
-        "lastModified": 1619740418,
-        "narHash": "sha256-FIwxf3m7xFsVbYYzFh+9joThpg/6eo8NDyqAhcUYOMk=",
+        "lastModified": 1620330977,
+        "narHash": "sha256-lyLaKve9WgqUIocxE2CN78NyOHVAQXmbqVDFawtpN0A=",
         "owner": "StevenBlack",
         "repo": "hosts",
-        "rev": "037f143f2d17bdaad50d16497f9890a2ad6540df",
+        "rev": "e0487c132b38fe95f08c5c19ce1b19a9a8824f19",
         "type": "github"
       },
       "original": {
@@ -35,11 +35,11 @@
     },
     "emacs-overlay": {
       "locked": {
-        "lastModified": 1619808786,
-        "narHash": "sha256-d3ZMBPCcNGOdQu8M8Io+0AURX328nFv5i0zUxsmyrHU=",
+        "lastModified": 1620356930,
+        "narHash": "sha256-eQa82tat0z3JPOMNiU/YQIHwHi1+TmZFRsWTUB1Y7bk=",
         "owner": "nix-community",
         "repo": "emacs-overlay",
-        "rev": "c28eb8233a4f5d6f17628f8d03cd612d77cc6767",
+        "rev": "8e56d29d2b766d9fd44afc38a9447413cec76d5d",
         "type": "github"
       },
       "original": {
@@ -206,11 +206,11 @@
         "traefik-forward-auth": "traefik-forward-auth"
       },
       "locked": {
-        "lastModified": 1619889193,
-        "narHash": "sha256-ADq0FlNW1uj9KxrzNbgqoUNEQS4jSMsjF2xSuVIKRhQ=",
+        "lastModified": 1620407810,
+        "narHash": "sha256-rEwtcET+I0FrPu1NCfA80DcD7y9BN6VXIlhsYP+cKk8=",
         "owner": "hackworthltd",
         "repo": "hacknix",
-        "rev": "d76a363d30ff2ce3cd3133c33d8671d07e076b5c",
+        "rev": "5cce6b6c5baea5666303e3e89b5d145c6c844365",
         "type": "github"
       },
       "original": {
@@ -228,11 +228,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1619951160,
-        "narHash": "sha256-QGg1uunpd4D+D1nOZhBbXWmO60cNmcT5NWQ6+wAzSbM=",
+        "lastModified": 1620478123,
+        "narHash": "sha256-hNc7ez1MSS8pOoHvwQbk/IUjUjyulQCjGZCpDJdvDi8=",
         "owner": "hackworthltd",
         "repo": "hacknix-lib",
-        "rev": "c692094de14498c274ef3b8b3c3d5f95405220b9",
+        "rev": "f2bddf58be9ac12531aee092a24789153f2d57fb",
         "type": "github"
       },
       "original": {
@@ -250,11 +250,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1619774585,
-        "narHash": "sha256-TTBlgB4nZfL+XquvN3IsVKGJl0/UGkNcfcYSkAzXA+g=",
+        "lastModified": 1620405910,
+        "narHash": "sha256-90YHAXrL5ETTCPvFYpe4uveZ+KEaoKf99miWs+JSMbg=",
         "owner": "hackworthltd",
         "repo": "hacknix-lib",
-        "rev": "30ddd5f8f3352e5057e12dc594b2ce650e6c26c2",
+        "rev": "42a30406572b542781a08ebf8ff5e8e16e888c0a",
         "type": "github"
       },
       "original": {
@@ -276,11 +276,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1619958871,
-        "narHash": "sha256-/GLlJ/Jsa/46bDS/PBqi71aS845KRiZKBFDxjrcqddE=",
+        "lastModified": 1620478174,
+        "narHash": "sha256-V8yK1KHBQ4V3HO+6c2QJS6wkzpuYn36PjmmG8g8Tib8=",
         "owner": "hackworthltd",
         "repo": "haskell-hacknix",
-        "rev": "5aec86bac3bd8dd4c678768e19efcbfda547ebc3",
+        "rev": "b56de7a771d24328b3778654bfb5d3206828f50c",
         "type": "github"
       },
       "original": {
@@ -297,11 +297,11 @@
         "nixpkgs-unstable": "nixpkgs-unstable"
       },
       "locked": {
-        "lastModified": 1619917992,
-        "narHash": "sha256-EUHUBUHlLe1NG4sDEvNImXf7h/KA9mCBcK7rMGSiHSc=",
+        "lastModified": 1620436413,
+        "narHash": "sha256-m0QdxYlc2s5NESyPGd/Y5lKpAN4U25CjGtvxzmqoaU8=",
         "owner": "input-output-hk",
         "repo": "haskell.nix",
-        "rev": "e0ea300ef39f67d5c4255a451687116ff4e9d4cb",
+        "rev": "0d7df72bbad23479f215dc6069ad458ab0fe63a2",
         "type": "github"
       },
       "original": {
@@ -452,11 +452,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1619771587,
-        "narHash": "sha256-ICgBLhEygiLu524Xn8wnpFT547hInf2Zqpq0M59CBp4=",
+        "lastModified": 1619976063,
+        "narHash": "sha256-2tjVP95+qR1UzL8/UeV/xRJu7S2fRB7rf7enZedbrik=",
         "owner": "cachix",
         "repo": "pre-commit-hooks.nix",
-        "rev": "f3fec488b5efed9104742811862e434e8f992dc9",
+        "rev": "09fb9e425111878b58223852e87ed85e8a189e0d",
         "type": "github"
       },
       "original": {
